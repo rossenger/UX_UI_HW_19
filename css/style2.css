@@ -758,17 +758,21 @@ footer {
         top: 0;
         left: 0;
         z-index: 1;
-        
+        margin-top: 25px;
     }
 
-    input,
-    textarea,
-    button,
-    select,
-    a {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
+    .menu li {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        padding-left: 99px;
+        padding-right: 99px;
+        letter-spacing: 0.15em;
+        font-weight: 300;
+        font-family: 'Elza';
+    }
 
+    
     .menu-wrap .toggler {
         position: absolute;
         top: 0;
