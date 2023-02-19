@@ -746,6 +746,15 @@ footer {
 
 @media only screen and (max-width: 875px) {
 
+    .logoContainer {
+        background-color: #414042;
+        height: 139px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    
     :root {
         --primary-color: #414042;
         --overlay-color: rgba(65, 64, 66, 0.95);
