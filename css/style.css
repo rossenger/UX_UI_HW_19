@@ -1080,149 +1080,147 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-    .navbarContainer {
-        display: none;
-    }
-
-    .heroTitles {
-        width: 348.5px;
-        height: 75px; 
-    }
-
-    .titleDescription {
-        transform: translateY(-80px);
-    }
-
-    .heroDescriptionContainer {
-        width: 289px;
-        text-align: center;
-        padding-bottom: 32px;
-        margin: 0 auto;
-    }
-
-    .projectGridContainer {
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        height: auto;
-        padding-top: 160px;
-        padding-bottom: 160px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "npoCard"
-            "blmCard"
-            "goalAssistantCard" 
-            "trvlCard"
-        ;
-    }
-
-    .npoCard {
-        grid-area: npoCard;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-top: 50px;
-        margin: 0 auto;
-    }
-
-    .blmCard {
-        grid-area: blmCard;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-top: 80px;
-        margin: 0 auto;
-    }
-
-    .goalAssistantCard {
-        grid-area: goalAssistantCard;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-top: 80px;
-        margin: 0 auto;
-    }
-
-    .trvlCard {
-        grid-area: trvlCard;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-top: 80px;
-        margin: 0 auto;
-    }
-
-    .npoImages {
-        width: 355px;
-        height: 168px;
-    }
-
-    .blmImages {
-        width: 357.53px;
-        height: 166.24px;
-    }
-
-    .goalAssistantImage {
-        width: 358px;
-        height: 178px;
-    }
-
-    .trvlImage {
-        width: 358px;
-        height: 195px;
-    }
-
-    #aboutMePicture {
-    width: 328px;
-    background-image: url(../images/about_me_picture.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-right: 18px;
-    background-position: top;
-    }
-
-    .aboutMeContainer {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 100px;
+.navbarContainer {
+    display: none;
 }
 
-    #aboutMeDescription p {
-    max-width: 338px;
-    font-family: 'elza-narrow';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 19px;
-    line-height: 133%;
-    color: #FFFFFF;
-    padding-left: 24px;
-    padding-right: 24px;
+.heroTitles {
+    width: 348.5px;
+    height: 75px; 
+}
+
+.titleDescription {
+    transform: translateY(-80px);
+}
+
+.heroDescriptionContainer {
+    width: 289px;
+    text-align: center;
+    padding-bottom: 32px;
     margin: 0 auto;
+}
 
-    
-    }
+.projectGridContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "npoCard"
+        "blmCard"
+        "goalAssistantCard" 
+        "trvlCard"
+    ;
+}
 
-    #aboutMeDescription .aboutMeParagraphBold {
-    max-width: 338px;
-    font-family: 'elza-narrow';
-    font-style: italic;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 133%;
-    color: #FFFFFF;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+.npoCard {
+    grid-area: npoCard;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.blmCard {
+    grid-area: blmCard;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.goalAssistantCard {
+    grid-area: goalAssistantCard;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.trvlCard {
+    grid-area: trvlCard;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.npoImages {
+    width: 355px;
+    height: 168px;
+}
+
+.blmImages {
+    width: 357.53px;
+    height: 166.24px;
+}
+
+.goalAssistantImage {
+    width: 358px;
+    height: 178px;
+}
+
+.trvlImage {
+    width: 358px;
+    height: 195px;
+}
+
+#aboutMePicture {
+width: 328px;
+background-image: url(../images/about_me_picture.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+padding-right: 18px;
+background-position: top;
+}
+
+.aboutMeContainer {
+display: flex;
+justify-content: center;
+margin: 0 auto;
+padding-top: 50px;
+padding-left: 60px;
+padding-right: 60px;
+padding-bottom: 100px;
+}
+
+#aboutMeDescription p {
+max-width: 338px;
+font-family: 'elza-narrow';
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 133%;
+color: #FFFFFF;
+padding-left: 24px;
+padding-right: 24px;
+margin: 0 auto;
+}
+
+#aboutMeDescription .aboutMeParagraphBold {
+max-width: 338px;
+font-family: 'elza-narrow';
+font-style: italic;
+font-weight: 500;
+font-size: 19px;
+line-height: 133%;
+color: #FFFFFF;
+padding-left: 24px;
+padding-right: 24px;
+padding-top: 16px;
+padding-bottom: 16px;
 }
 
 
@@ -1233,7 +1231,8 @@ footer {
     margin-left: auto;
     margin-right: auto;
     height: 40px;
-    padding-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -1256,6 +1255,7 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 #toolsContainer {
