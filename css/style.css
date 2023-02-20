@@ -63,7 +63,7 @@ body {
     padding-right: 99px;
     letter-spacing: 0.15em;
     font-weight: 300;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
 }
 
 .navbar a:hover {
@@ -74,7 +74,7 @@ body {
     padding-right: 99px;
     letter-spacing: 0.15em;
     font-weight: 300;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     text-decoration: underline;
     text-decoration-thickness: 5px;
     transition: .5s;
@@ -88,7 +88,7 @@ body {
     padding-right: 99px;
     letter-spacing: 0.15em;
     font-weight: 300;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     text-decoration: underline;
     text-decoration-thickness: 5px;
 }
@@ -240,7 +240,7 @@ body {
     padding-right: 99px;
     letter-spacing: 0.15em;
     font-weight: 300;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     text-decoration: underline;
     text-decoration-thickness: 5px;
 }
@@ -284,7 +284,7 @@ body {
 }
 
 .heroDescriptionContainer h2 {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -294,7 +294,7 @@ body {
 }
 
 .heroDescriptionContainer span {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 700;
     font-size: 36px;
@@ -364,7 +364,7 @@ body {
 }
 
 .projectCardHeader {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -375,7 +375,7 @@ body {
 }
 
 .projectCardSubhead {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 400;
     font-size: 26px;
@@ -393,7 +393,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-weight: 900;
     font-size: 16px;
     line-height: 93.5%;
@@ -409,7 +409,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-weight: 900;
     font-size: 16px;
     line-height: 93.5%;
@@ -482,7 +482,7 @@ body {
 
 #aboutMeDescription p {
     max-width: 520px;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 300;
     font-size: 19px;
@@ -493,7 +493,7 @@ body {
 
 #aboutMeDescription .aboutMeParagraphBold {
     max-width: 520px;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 500;
     font-size: 19px;
@@ -522,7 +522,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-weight: 900;
     font-size: 16px;
     line-height: 93.5%;
@@ -538,7 +538,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-weight: 900;
     font-size: 16px;
     line-height: 93.5%;
@@ -554,7 +554,7 @@ body {
 }
 
 .skillsHeader {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -597,7 +597,7 @@ body {
 }
 
 .skillsSubhead {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -612,7 +612,7 @@ body {
 
 .skillsDescription {
     text-align: center;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-size: 19px;
     line-height: 133%;
@@ -678,7 +678,7 @@ footer {
 }
 
 .email {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -688,7 +688,7 @@ footer {
 }
 
 .minneapolis {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -698,7 +698,7 @@ footer {
 }
 
 .copyright {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 275;
     font-size: 14px;
@@ -809,7 +809,7 @@ footer {
         padding-right: 99px;
         letter-spacing: 0.15em;
         font-weight: 300;
-        font-family: 'Elza';
+        font-family: 'elza-narrow';
     }
 
     
@@ -958,7 +958,7 @@ footer {
     }
 
     .heroDescriptionContainer h2 {
-        font-family: 'Elza';
+        font-family: 'elza-narrow';
         font-style: normal;
         font-weight: 500;
         font-size: 19px;
@@ -968,7 +968,7 @@ footer {
     }
     
     .heroDescriptionContainer span {
-        font-family: 'Elza';
+        font-family: 'elza-narrow';
         font-style: italic;
         font-weight: 700;
         font-size: 19px;
@@ -998,7 +998,7 @@ footer {
     #aboutMeDescription {
         width: 445px;
         height: 532px;
-        font-family: 'Elza';
+        font-family: 'elza-narrow';
         font-style: normal;
         font-weight: 300;
         font-size: 19px;
@@ -1194,7 +1194,7 @@ footer {
 
     #aboutMeDescription p {
     max-width: 338px;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 300;
     font-size: 19px;
@@ -1209,7 +1209,7 @@ footer {
 
     #aboutMeDescription .aboutMeParagraphBold {
     max-width: 338px;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 500;
     font-size: 19px;
