@@ -17,11 +17,11 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.fadeIn4').css('display', 'none');
-    $('.fadeIn4').delay('1500').fadeIn(2000);
+    $('.fadeIn4').delay('2500').fadeIn(2000);
 })
 
 $(document).ready(function() {
     $('.fadeIn5').css('display', 'none');
-    $('.fadeIn5').delay('2000').fadeIn(2000);
+    $('.fadeIn5').delay('3000').fadeIn(2000);
 })
 
