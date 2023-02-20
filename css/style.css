@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/oqf7lfy.css");
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'elza-narrow', sans-serif;
-    src: url('https://use.typekit.net/oqf7lfy.css');
+   
     overflow: scroll;
     overflow-x: hidden;
     background-color: #414042;
