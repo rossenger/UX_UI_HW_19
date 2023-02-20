@@ -2,42 +2,69 @@
 <html lang ="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <title>Ross Enger Design Portfolio</title>
         <link rel="icon" type="image/x-icon" href="/UX_UI_HW_18/images/favicon.png">
         <link rel="stylesheet" href="https://use.typekit.net/oqf7lfy.css">
     </head>
     <body>
-        
+
     <div>
-    <header>
-    <div class="logoContainer">
-        <div class="logo"><img src="images/logo-01.png"></div>
-    </div>
-    <div class="navbarContainer">
-        <div class="navbar">
-            <a href="#" class="activeNav">work</a>
-            <a href="about.html">about</a>
-            <a href="#">résumé</a>
-            <a href="#">contact</a>
+        <header>
+        <div class="logoContainer">
+            <div class="logo fadeIn1"><img src="images/logo-01.png"></div>
         </div>
-    </div> 
-    </header>
-    </div>
-    
-    <div class="heroContainer"> 
-        <div class="titleDescription">       
-        <img src="./images/hero_titles.png" class="heroTitles">
-        <div class="heroDescriptionContainer">
-            <h2 class="heroDescription">Crafting <span class="italicBold">intuitive, visually stunning, </span>and <span class="italicBold">user-centered </span>digital experiences.</span></h2>
+        <div class="menu-wrap fadeIn4">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="index.html" class="menuActive">work</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="resume.html">résumé</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
-        <img src="./images/down_arrow.png" class="downArrow bounce">
+        <div class="navbarContainer">
+            <div class="navbar">
+                <a href="#" class="activeNav fadeIn2">work</a>
+                <a href="about.html" class="fadeIn2">about</a>
+                <a href="#" class="fadeIn2">résumé</a>
+                <a href="#" class="fadeIn2">contact</a>
+            </div>
+        </div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </header>
     </div>
+
+
+
+    <section class="heroSection">
+    <div class="heroContainer fadeIn3"> 
+        <div class="titleDescription"> 
+        <div class="fadeIn4">    
+            <img src="./images/hero_titles.png" class="heroTitles">
+         
+            <div class="heroDescriptionContainer">
+                <h2 class="heroDescription">Crafting <span class="italicBold">intuitive, visually stunning, </span>and <span class="italicBold">user-centered </span>digital experiences.</span></h2>
+            </div>
+         </div>
+        </div>
+        <img src="./images/down_arrow.png" class="downArrow bounce fadeIn4">
+    </div>
+    </section>
 
     <!-- My Work Section Constructed using CSS Grid -->
 
+    <section class="projectSection">
     <div class="projectGridContainer">
         <div class="npoCard">
             <img src="./images/npo_homepage_images.png" class="npoImages">
@@ -72,6 +99,7 @@
             <button class="projectButton">View Project</button>
         </div>
     </div>
+    </section>
 
     <footer>
         <div class="footerContainer">
@@ -83,6 +111,6 @@
         </div>
         <p class="copyright">Copyright © 2023 - Ross Enger - All Rights Reserved</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    </body>
+   <script src="js/index.js"></script>   
+</body>
 </html>

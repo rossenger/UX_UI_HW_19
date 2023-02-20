@@ -757,7 +757,7 @@ footer {
     
     :root {
         --primary-color: #414042;
-        --overlay-color: rgba(65, 64, 66, 0.95);
+        --overlay-color: rgba(65, 64, 66, 0.98);
         --menu-speed: 0.75s;
     }
     
