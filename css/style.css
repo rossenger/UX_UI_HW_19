@@ -22,6 +22,10 @@ body {
     background-color: #414042;
 }
 
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
 .logoContainer {
     background-color: #414042;
     height: 139px;
@@ -333,7 +337,7 @@ body {
 
 .projectGridContainer {
     margin: 0 auto;
-    padding-top: 280px;
+    padding-top: 400px;
     padding-bottom: 280px;
     width: 1200px;
     height: 932px;
