@@ -25,14 +25,52 @@ $(document).ready(function() {
     $('.fadeIn5').delay('3000').fadeIn(2000);
 })
 
+$(document).ready(function() {
+    $('.aboutMeSection').css('display', 'none');
+    $('.aboutMeSection').fadeIn(3000);
+})
+
 
 ScrollReveal().reveal('.projectSection', {delay: 1000});
 
-ScrollReveal().reveal('.npoCard', {delay: 1000}, {easing: 'ease-in'}, {duration: 2000});
+ScrollReveal().reveal('.npoCard', {
+    delay: 1500,
+    distance: '50px'
+});
 
-ScrollReveal().reveal('.blmCard', {delay: 1000});
+ScrollReveal().reveal('.blmCard', {
+    delay: 1500,
+    distance: '50px'
+});
 
-ScrollReveal().reveal('.goalAssistantCard', {delay: 1000});
+ScrollReveal().reveal('.goalAssistantCard', {
+    delay: 1500,
+    distance: '50px'
+});
 
-ScrollReveal().reveal('.trvlCard', {delay: 1000});
+ScrollReveal().reveal('.trvlCard', {
+    delay: 1500,
+    distance: '50px'
+});
+
+ScrollReveal().reveal('.skillsHeader', {
+    delay: 1000,
+    distance: '50px'
+});
+
+ScrollReveal().reveal('.skillsCard', {
+    delay: 1000,
+    distance: '50px'
+});
+
+ScrollReveal().reveal('.toolsTitleContainer', {
+    delay: 1000,
+    distance: '50px'
+});
+
+ScrollReveal().reveal('.toolsCard', {
+    delay: 1000,
+    distance: '50px'
+});
+
 

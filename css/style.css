@@ -551,7 +551,7 @@ html.sr .load-hidden {
 }
 
 .skillsSection {
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
 #skillsTitleContainer {
@@ -1264,6 +1264,10 @@ padding-bottom: 16px;
     height: 40px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.skillsSection {
+    padding-top: 100px;
 }
 
 
