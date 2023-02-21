@@ -26,13 +26,13 @@ $(document).ready(function() {
 })
 
 
-ScrollReveal().reveal('.projectSection', {delay: 500});
+ScrollReveal().reveal('.projectSection', {delay: 1000});
 
-ScrollReveal().reveal('.npoCard', {delay: 500}, {easing: 'ease-in'}, {duration: 2000});
+ScrollReveal().reveal('.npoCard', {delay: 1000}, {easing: 'ease-in'}, {duration: 2000});
 
-ScrollReveal().reveal('.blmCard', {delay: 500});
+ScrollReveal().reveal('.blmCard', {delay: 1000});
 
-ScrollReveal().reveal('.goalAssistantCard', {delay: 500});
+ScrollReveal().reveal('.goalAssistantCard', {delay: 1000});
 
-ScrollReveal().reveal('.trvlCard', {delay: 500});
+ScrollReveal().reveal('.trvlCard', {delay: 1000});
 
