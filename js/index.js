@@ -1,5 +1,36 @@
 console.log("Your index.js file is loaded correctly!");
 
+/*
+
+$(document).ready(function() {
+    $('.loaderAnimationContainer').fadeIn(300).delay(3000).fadeOut(300);	
+ });
+
+
+
+$(window).load(function(){
+    $('.loaderAnimationContainer').fadeIn('slow').delay(3000).fadeOut('slow')});
+  
+    window.setTimeout(function(){ 
+        $("#overlay").css({'z-index':'-100'});
+    },3000);
+
+
+
+$(document).ready(function() {
+    $('.loaderAnimationContainer').css('display', 'none');
+    $('.loaderAnimationContainer').fadeOut(3000);
+})
+
+
+
+setTimeout(function() {
+    $('.loaderAnimationContainer').fadeOut();
+  }, 3000);
+
+*/
+
+
 $(document).ready(function() {
     $('.fadeIn1').css('display', 'none');
     $('.fadeIn1').fadeIn(3000);
@@ -39,7 +70,7 @@ ScrollReveal().reveal('.projectSection', {
 ScrollReveal().reveal('.npoCard', {
     delay: 1000,
     distance: '50px'
-    
+
 });
 
 ScrollReveal().reveal('.blmCard', {
@@ -76,5 +107,4 @@ ScrollReveal().reveal('.toolsCard', {
     delay: 1000,
     distance: '50px'
 });
-
 
