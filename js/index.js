@@ -31,25 +31,29 @@ $(document).ready(function() {
 })
 
 
-ScrollReveal().reveal('.projectSection', {delay: 1000});
+ScrollReveal().reveal('.projectSection', {
+    delay: 500,
+    easing: 'ease-in'
+});
 
 ScrollReveal().reveal('.npoCard', {
-    delay: 1500,
+    delay: 1000,
     distance: '50px'
+    
 });
 
 ScrollReveal().reveal('.blmCard', {
-    delay: 1500,
+    delay: 1000,
     distance: '50px'
 });
 
 ScrollReveal().reveal('.goalAssistantCard', {
-    delay: 1500,
+    delay: 1000,
     distance: '50px'
 });
 
 ScrollReveal().reveal('.trvlCard', {
-    delay: 1500,
+    delay: 1000,
     distance: '50px'
 });
 
