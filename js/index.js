@@ -17,13 +17,16 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.fadeIn4').css('display', 'none');
-    $('.fadeIn4').delay('2500').fadeIn(2000);
+    $('.fadeIn4').delay('2000').fadeIn(2000);
 })
 
 $(document).ready(function() {
     $('.fadeIn5').css('display', 'none');
     $('.fadeIn5').delay('3000').fadeIn(2000);
 })
+
+
+ScrollReveal().reveal('.projectSection', {delay: 500});
 
 ScrollReveal().reveal('.npoCard', {delay: 500}, {easing: 'ease-in'}, {duration: 2000});
 

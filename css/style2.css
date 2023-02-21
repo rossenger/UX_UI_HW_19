@@ -1,3 +1,12 @@
+@import url("https://use.typekit.net/oqf7lfy.css");
+
+@font-face {
+    font-family: "elza-narrow";
+    src: url('https://use.typekit.net/oqf7lfy.css');
+    font-weight: normal;
+    font-style: normal; 
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -6,17 +15,17 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Elza;
-    src: url('https://use.typekit.net/oqf7lfy.css');
+    font-family: 'elza-narrow', sans-serif;
+   
     overflow: scroll;
     overflow-x: hidden;
+    background-color: #414042;
+    transition: background-color 1s ease;
 }
 
-header {
-    
+html.sr .load-hidden {
+    visibility: hidden;
 }
-
-
 
 .logoContainer {
     background-color: #414042;
@@ -24,6 +33,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .logo {
@@ -33,6 +43,8 @@ header {
     width: 276px;
     padding-top: 16px;
 }
+
+
 
 .navbarContainer {
     background-color: #414042;
@@ -56,7 +68,7 @@ header {
     padding-right: 99px;
     letter-spacing: 0.15em;
     font-weight: 300;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
 }
 
 .navbar a:hover {
@@ -67,7 +79,7 @@ header {
     padding-right: 99px;
     letter-spacing: 0.15em;
     font-weight: 300;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     text-decoration: underline;
     text-decoration-thickness: 5px;
     transition: .5s;
@@ -81,7 +93,7 @@ header {
     padding-right: 99px;
     letter-spacing: 0.15em;
     font-weight: 300;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     text-decoration: underline;
     text-decoration-thickness: 5px;
 }
@@ -225,6 +237,25 @@ header {
     transition: color 0.4s ease;
 }
 
+.menuActive {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #99D5CA;
+    padding-left: 99px;
+    padding-right: 99px;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+    font-family: 'elza-narrow';
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+.heroSection {
+    width: 100%;
+    height: 800px;
+    background-color: #414042;
+}
+
 
 .heroContainer {
     width: 100%;
@@ -247,6 +278,7 @@ header {
     height: 110px;
     padding-bottom: 25px;
     padding-right: 2px;
+    position: static;
 }
 
 .heroDescriptionContainer {
@@ -257,7 +289,7 @@ header {
 }
 
 .heroDescriptionContainer h2 {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -267,7 +299,7 @@ header {
 }
 
 .heroDescriptionContainer span {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 700;
     font-size: 36px;
@@ -300,10 +332,16 @@ header {
   }
 
 
+
+.color-white {
+    background-color: white;
+}
+
+
 .projectGridContainer {
     margin: 0 auto;
-    padding-top: 280px;
-    padding-bottom: 280px;
+    padding-top: 400px;
+    padding-bottom: 400px;
     width: 1200px;
     height: 932px;
     display: grid;
@@ -333,7 +371,7 @@ header {
 }
 
 .projectCardHeader {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -344,7 +382,7 @@ header {
 }
 
 .projectCardSubhead {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 400;
     font-size: 26px;
@@ -362,7 +400,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-weight: 900;
     font-size: 16px;
     line-height: 93.5%;
@@ -378,7 +416,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-weight: 900;
     font-size: 16px;
     line-height: 93.5%;
@@ -451,7 +489,7 @@ header {
 
 #aboutMeDescription p {
     max-width: 520px;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 300;
     font-size: 19px;
@@ -462,7 +500,7 @@ header {
 
 #aboutMeDescription .aboutMeParagraphBold {
     max-width: 520px;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 500;
     font-size: 19px;
@@ -491,7 +529,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-weight: 900;
     font-size: 16px;
     line-height: 93.5%;
@@ -507,12 +545,16 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-weight: 900;
     font-size: 16px;
     line-height: 93.5%;
     text-align: center;
     transition: .5s;
+}
+
+.skillsSection {
+    padding-top: 200px;
 }
 
 #skillsTitleContainer {
@@ -523,7 +565,7 @@ header {
 }
 
 .skillsHeader {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -566,7 +608,7 @@ header {
 }
 
 .skillsSubhead {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -581,7 +623,7 @@ header {
 
 .skillsDescription {
     text-align: center;
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-size: 19px;
     line-height: 133%;
@@ -647,7 +689,7 @@ footer {
 }
 
 .email {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -657,7 +699,7 @@ footer {
 }
 
 .minneapolis {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -667,7 +709,7 @@ footer {
 }
 
 .copyright {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 275;
     font-size: 14px;
@@ -694,8 +736,8 @@ footer {
         margin-right: auto;
         width: 100%;
         height: auto;
-        padding-top: 160px;
-        padding-bottom: 160px;
+        padding-top: 600px;
+        padding-bottom: 600px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: 
@@ -778,7 +820,7 @@ footer {
         padding-right: 99px;
         letter-spacing: 0.15em;
         font-weight: 300;
-        font-family: 'Elza';
+        font-family: 'elza-narrow';
     }
 
     
@@ -927,7 +969,7 @@ footer {
     }
 
     .heroDescriptionContainer h2 {
-        font-family: 'Elza';
+        font-family: 'elza-narrow';
         font-style: normal;
         font-weight: 500;
         font-size: 19px;
@@ -937,7 +979,7 @@ footer {
     }
     
     .heroDescriptionContainer span {
-        font-family: 'Elza';
+        font-family: 'elza-narrow';
         font-style: italic;
         font-weight: 700;
         font-size: 19px;
@@ -967,7 +1009,7 @@ footer {
     #aboutMeDescription {
         width: 445px;
         height: 532px;
-        font-family: 'Elza';
+        font-family: 'elza-narrow';
         font-style: normal;
         font-weight: 300;
         font-size: 19px;
@@ -1045,149 +1087,147 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-    .navbarContainer {
-        display: none;
-    }
-
-    .heroTitles {
-        width: 348.5px;
-        height: 75px; 
-    }
-
-    .titleDescription {
-        transform: translateY(-80px);
-    }
-
-    .heroDescriptionContainer {
-        width: 289px;
-        text-align: center;
-        padding-bottom: 32px;
-        margin: 0 auto;
-    }
-
-    .projectGridContainer {
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        height: auto;
-        padding-top: 160px;
-        padding-bottom: 160px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "npoCard"
-            "blmCard"
-            "goalAssistantCard" 
-            "trvlCard"
-        ;
-    }
-
-    .npoCard {
-        grid-area: npoCard;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-top: 50px;
-        margin: 0 auto;
-    }
-
-    .blmCard {
-        grid-area: blmCard;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-top: 80px;
-        margin: 0 auto;
-    }
-
-    .goalAssistantCard {
-        grid-area: goalAssistantCard;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-top: 80px;
-        margin: 0 auto;
-    }
-
-    .trvlCard {
-        grid-area: trvlCard;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-top: 80px;
-        margin: 0 auto;
-    }
-
-    .npoImages {
-        width: 355px;
-        height: 168px;
-    }
-
-    .blmImages {
-        width: 357.53px;
-        height: 166.24px;
-    }
-
-    .goalAssistantImage {
-        width: 358px;
-        height: 178px;
-    }
-
-    .trvlImage {
-        width: 358px;
-        height: 195px;
-    }
-
-    #aboutMePicture {
-    width: 328px;
-    background-image: url(../images/about_me_picture.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-right: 18px;
-    background-position: top;
-    }
-
-    .aboutMeContainer {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 100px;
+.navbarContainer {
+    display: none;
 }
 
-    #aboutMeDescription p {
-    max-width: 338px;
-    font-family: 'Elza';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 19px;
-    line-height: 133%;
-    color: #FFFFFF;
-    padding-left: 24px;
-    padding-right: 24px;
+.heroTitles {
+    width: 348.5px;
+    height: 75px; 
+}
+
+.titleDescription {
+    transform: translateY(-80px);
+}
+
+.heroDescriptionContainer {
+    width: 289px;
+    text-align: center;
+    padding-bottom: 32px;
     margin: 0 auto;
+}
 
-    
-    }
+.projectGridContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "npoCard"
+        "blmCard"
+        "goalAssistantCard" 
+        "trvlCard"
+    ;
+}
 
-    #aboutMeDescription .aboutMeParagraphBold {
-    max-width: 338px;
-    font-family: 'Elza';
-    font-style: italic;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 133%;
-    color: #FFFFFF;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+.npoCard {
+    grid-area: npoCard;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.blmCard {
+    grid-area: blmCard;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.goalAssistantCard {
+    grid-area: goalAssistantCard;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.trvlCard {
+    grid-area: trvlCard;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.npoImages {
+    width: 355px;
+    height: 168px;
+}
+
+.blmImages {
+    width: 357.53px;
+    height: 166.24px;
+}
+
+.goalAssistantImage {
+    width: 358px;
+    height: 178px;
+}
+
+.trvlImage {
+    width: 358px;
+    height: 195px;
+}
+
+#aboutMePicture {
+width: 328px;
+background-image: url(../images/about_me_picture.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+padding-right: 18px;
+background-position: top;
+}
+
+.aboutMeContainer {
+display: flex;
+justify-content: center;
+margin: 0 auto;
+padding-top: 50px;
+padding-left: 60px;
+padding-right: 60px;
+padding-bottom: 100px;
+}
+
+#aboutMeDescription p {
+max-width: 338px;
+font-family: 'elza-narrow';
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 133%;
+color: #FFFFFF;
+padding-left: 24px;
+padding-right: 24px;
+margin: 0 auto;
+}
+
+#aboutMeDescription .aboutMeParagraphBold {
+max-width: 338px;
+font-family: 'elza-narrow';
+font-style: italic;
+font-weight: 500;
+font-size: 19px;
+line-height: 133%;
+color: #FFFFFF;
+padding-left: 24px;
+padding-right: 24px;
+padding-top: 16px;
+padding-bottom: 16px;
 }
 
 
@@ -1198,7 +1238,8 @@ footer {
     margin-left: auto;
     margin-right: auto;
     height: 40px;
-    padding-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -1221,6 +1262,7 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 #toolsContainer {

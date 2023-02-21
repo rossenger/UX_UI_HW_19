@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang ="en">
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
         <link rel="stylesheet" type="text/css" href="css/style2.css" />
         <title>Ross Enger Design Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="/UX_UI_HW_18/images/favicon.png">
+        <link rel="icon" type="image/x-icon" href="/UX_UI_HW_19/images/favicon.png">
         <link rel="stylesheet" href="https://use.typekit.net/oqf7lfy.css">
     </head>
     <body>
@@ -13,16 +18,17 @@
     <div>
         <header>
         <div class="logoContainer">
-            <div class="logo"><img src="images/logo-01.png"></div>
+            <div class="logo fadeIn1"><img src="images/logo-01.png"></div>
         </div>
-        <div class="menu-wrap">
+
+        <div class="menu-wrap fadeIn4">
             <input type="checkbox" class="toggler">
             <div class="hamburger"><div></div></div>
             <div class="menu">
                 <div>
                     <div>
                         <ul>
-                            <li><a href="index.html" class="menuActive">work</a></li>
+                            <li><a href="index.html"><span class="menuActive">work</span></a></li>
                             <li><a href="about.html">about</a></li>
                             <li><a href="resume.html">résumé</a></li>
                             <li><a href="contact.html">contact</a></li>
@@ -31,12 +37,13 @@
                 </div>
             </div>
         </div>
+
         <div class="navbarContainer">
             <div class="navbar">
-                <a href="#" class="activeNav">work</a>
-                <a href="about.html">about</a>
-                <a href="#">résumé</a>
-                <a href="#">contact</a>
+                <a href="#" class="activeNav fadeIn2">work</a>
+                <a href="about.html" class="fadeIn2">about</a>
+                <a href="#" class="fadeIn2">résumé</a>
+                <a href="#" class="fadeIn2">contact</a>
             </div>
         </div> 
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -47,21 +54,26 @@
 
 
 
-    
-    <div class="heroContainer"> 
-        <div class="titleDescription">       
-        <img src="./images/hero_titles.png" class="heroTitles">
-        <div class="heroDescriptionContainer">
-            <h2 class="heroDescription">Crafting <span class="italicBold">intuitive, visually stunning, </span>and <span class="italicBold">user-centered </span>digital experiences.</span></h2>
+    <section class="heroSection">
+    <div class="heroContainer fadeIn3"> 
+        <div class="titleDescription"> 
+        <div class="fadeIn4">    
+            <img src="./images/hero_titles.png" class="heroTitles">
+         
+            <div class="heroDescriptionContainer">
+                <h2 class="heroDescription">Crafting <span class="italicBold">intuitive, visually stunning, </span>and <span class="italicBold">user-centered </span>digital experiences.</span></h2>
+            </div>
+         </div>
         </div>
-        </div>
-        <img src="./images/down_arrow.png" class="downArrow bounce">
+        <img src="./images/down_arrow.png" class="downArrow bounce fadeIn4">
     </div>
+    </section>
 
     <!-- My Work Section Constructed using CSS Grid -->
 
+    <section class="projectSection" data-color="white">
     <div class="projectGridContainer">
-        <div class="npoCard">
+        <div class="npoCard load-hidden">
             <img src="./images/npo_homepage_images.png" class="npoImages">
             <div class="projectCardContainer">
                 <h2 class ="projectCardHeader">White Bear Area Food Shelf Website Redesign</h2>
@@ -69,7 +81,7 @@
             <P class="projectCardSubhead">UI Case Study</P>
             <button class="projectButton">View Project</button>
         </div>
-        <div class="blmCard">
+        <div class="blmCard load-hidden">
             <img src="./images/blm_homepage_images.png" class="blmImages">
             <div class="projectCardContainer">
                 <h2 class ="projectCardHeader">Bureau of Land Management Website Redesign</h2>
@@ -77,7 +89,7 @@
             <P class="projectCardSubhead">UI Case Study</P>
             <button class="projectButton">View Project</button>
         </div>
-        <div class="goalAssistantCard">
+        <div class="goalAssistantCard load-hidden">
             <img src="./images/goalassistant_homepage_image.png" class="goalAssistantImage">
             <div class="projectCardContainer">
                 <h2 class ="projectCardHeader">GoalAssistant Mobile App</h2>
@@ -85,7 +97,7 @@
             <P class="projectCardSubhead">UX Case Study</P>
             <button class="projectButton">View Project</button>
         </div>
-        <div class="trvlCard">
+        <div class="trvlCard load-hidden">
             <img src="./images/trvl_homepage_image.png" class="trvlImage">
             <div class="projectCardContainer">
                 <h2 class ="projectCardHeader">Travel Startup Mobile App</h2>
@@ -94,6 +106,7 @@
             <button class="projectButton">View Project</button>
         </div>
     </div>
+    </section>
 
     <footer>
         <div class="footerContainer">
@@ -105,6 +118,6 @@
         </div>
         <p class="copyright">Copyright © 2023 - Ross Enger - All Rights Reserved</p>
     </footer>
-
-    </body>
+   <script src="js/index2.js"></script>   
+</body>
 </html>
