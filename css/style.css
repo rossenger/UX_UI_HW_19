@@ -21,7 +21,12 @@ body {
     background-color: #414042;
 }
 
-
+.loaderAnimationContainer {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 3;
+}
 
 .loaderBackground {
     width: 100vw;
@@ -1181,6 +1186,11 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+
+.loaderBackground img {
+    width: 200px;
+    height: 200px;
+}
 
 .navbarContainer {
     display: none;

@@ -28,36 +28,48 @@ setTimeout(function() {
     $('.loaderAnimationContainer').fadeOut();
   }, 3000);
 
-*/
+
+
+
 
 setTimeout(function() {
     $('.loaderAnimationContainer').fadeOut('slow');
 }, 3000)
 
+*/
+
+setTimeout(function () {
+    $('.loaderAnimationContainer').fadeOut('slow', function(){
+        $(this).remove();
+    });
+}, 3000);
+
+
+
 
 $(document).ready(function() {
     $('.fadeIn1').css('display', 'none');
-    $('.fadeIn1').fadeIn(3000);
+    $('.fadeIn1').delay('3500').fadeIn(3000);
 })
 
 $(document).ready(function() {
     $('.fadeIn2').css('display', 'none');
-    $('.fadeIn2').delay('500').fadeIn(2000);
+    $('.fadeIn2').delay('4000').fadeIn(2000);
 })
 
 $(document).ready(function() {
     $('.fadeIn3').css('display', 'none');
-    $('.fadeIn3').delay('1000').fadeIn(1000);
+    $('.fadeIn3').delay('4500').fadeIn(1000);
 })
 
 $(document).ready(function() {
     $('.fadeIn4').css('display', 'none');
-    $('.fadeIn4').delay('2000').fadeIn(2000);
+    $('.fadeIn4').delay('5500').fadeIn(2000);
 })
 
 $(document).ready(function() {
     $('.fadeIn5').css('display', 'none');
-    $('.fadeIn5').delay('3000').fadeIn(2000);
+    $('.fadeIn5').delay('6500').fadeIn(2000);
 })
 
 $(document).ready(function() {
@@ -65,10 +77,15 @@ $(document).ready(function() {
     $('.aboutMeSection').fadeIn(3000);
 })
 
+$(document).ready(function() {
+    $('.graphicDesignPortfolioContainer').css('display', 'none');
+    $('.graphicDesignPortfolioContainer').fadeIn(4000);
+})
+
 
 ScrollReveal().reveal('.projectSection', {
     delay: 500,
-    easing: 'ease-in'
+    easing: 'ease-in',
 });
 
 ScrollReveal().reveal('.npoCard', {
