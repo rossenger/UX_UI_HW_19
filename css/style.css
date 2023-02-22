@@ -21,6 +21,8 @@ body {
     background-color: #414042;
 }
 
+
+
 .loaderAnimationContainer {
     width: 100vw;
     height: 100vh;
@@ -84,6 +86,14 @@ body {
 
 html.sr .load-hidden {
     visibility: hidden;
+}
+
+.fullHeight {
+    height: 100vh;
+}
+
+header {
+    width: 100vw;
 }
 
 .logoContainer {
