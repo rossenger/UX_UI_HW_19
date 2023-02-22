@@ -30,6 +30,10 @@ setTimeout(function() {
 
 */
 
+setTimeout(function() {
+    $('.loaderAnimationContainer').fadeOut('slow');
+}, 3000)
+
 
 $(document).ready(function() {
     $('.fadeIn1').css('display', 'none');
