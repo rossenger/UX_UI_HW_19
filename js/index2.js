@@ -72,23 +72,23 @@ ScrollReveal().reveal('.projectSection', {
 });
 
 ScrollReveal().reveal('.npoCard', {
-    delay: 1000,
+    delay: 750,
     distance: '50px'
 
 });
 
 ScrollReveal().reveal('.blmCard', {
-    delay: 1000,
+    delay: 750,
     distance: '50px'
 });
 
 ScrollReveal().reveal('.goalAssistantCard', {
-    delay: 1000,
+    delay: 750,
     distance: '50px'
 });
 
 ScrollReveal().reveal('.trvlCard', {
-    delay: 1000,
+    delay: 750,
     distance: '50px'
 });
 
