@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
+        <script>
+            ScrollReveal.debug = true;
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+        <title>Ross Enger Design Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="/UX_UI_HW_19/images/favicon.png">
+        <link rel="stylesheet" href="https://use.typekit.net/oqf7lfy.css">
+    </head>
+    <body>
+
+    <!--
+
+    <div class="loaderAnimationContainer fadeOut">
+        <div class="loaderBackground">
+            <div class="fadeIn">
+                <img src="images/logo_animation.svg">
+            </div>
+        </div>
+    </div>  
+
+    -->
+
+    <div class="fullHeight">
+    
+    <div>
+        <header>
+        <div class="logoContainer">
+            <div class="logo fadeIn1"><img src="images/logo-01.png"></div>
+        </div>
+
+        <div class="menu-wrap fadeIn5">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="index2.html"><span class="menuActive">work</span></a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="resume.html">résumé</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbarContainer">
+            <div class="navbar">
+                <a href="index2.html" class="activeNav fadeIn2">work</a>
+                <a href="about.html" class="fadeIn2">about</a>
+                <a href="#" class="fadeIn2">résumé</a>
+                <a href="#" class="fadeIn2">contact</a>
+            </div>
+        </div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </header>
+    </div>
+
+
+
+    <section class="heroSection">
+    <div class="heroContainer fadeIn3"> 
+        <div class="titleDescription"> 
+        <div class="fadeIn4">    
+            <img src="./images/hero_titles.png" class="heroTitles">
+         
+            <div class="heroDescriptionContainer">
+                <h2 class="heroDescription">Crafting <span class="italicBold">intuitive, visually stunning, </span>and <span class="italicBold">user-centered </span>digital experiences.</span></h2>
+            </div>
+         </div>
+        </div>
+        <img src="./images/down_arrow.png" class="downArrow bounce fadeIn4">
+    </div>
+    </section>
+
+    </div>
+
+    <!-- My Work Section Constructed using CSS Grid -->
+
+    <section class="projectSection">
+    <div class="projectGridContainer">
+        <div class="npoCard load-hidden">
+            <a href="../UX_UI_HW_20/npo.html" style="text-decoration: none">
+                <div class="grow">
+                <img src="./images/npo_homepage_images.png" class="npoImages">
+                <div class="projectCardContainer">
+                    <h2 class ="projectCardHeader">White Bear Area Food Shelf Website Redesign</h2>
+                </div>
+                <P class="projectCardSubhead">UI Case Study</P>
+                <button class="projectButton">View Project</button>
+                </div>
+            </a>
+        </div>
+        <div class="blmCard load-hidden">
+            <a href="#" style="text-decoration: none">
+                <div class="grow">
+                <img src="./images/blm_homepage_images.png" class="blmImages">
+                <div class="projectCardContainer">
+                    <h2 class ="projectCardHeader">Bureau of Land Management Website Redesign</h2>
+                </div>
+                <P class="projectCardSubhead">UI Case Study</P>
+                <button class="projectButton">View Project</button>
+                </div>
+            </a>
+        </div>
+        <div class="goalAssistantCard load-hidden">
+            <a href="#" style="text-decoration: none">
+                <div class="grow">
+                <img src="./images/goalassistant_homepage_image.png" class="goalAssistantImage">
+                <div class="projectCardContainer">
+                    <h2 class ="projectCardHeader">GoalAssistant Mobile App</h2>
+                </div>
+                <P class="projectCardSubhead">UX Case Study</P>
+                <button class="projectButton">View Project</button>
+                </div>
+            </a>
+        </div>
+        <div class="trvlCard load-hidden">
+            <a href="#" style="text-decoration: none">
+                <div class="grow">
+                <img src="./images/trvl_homepage_image.png" class="trvlImage">
+                <div class="projectCardContainer">
+                    <h2 class ="projectCardHeader">Travel Startup Mobile App</h2>
+                </div>
+                <P class="projectCardSubhead">UX Case Study</P>
+                <button class="projectButton">View Project</button>
+                </div>
+            </a>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <div class="footerContainer">
+        <a href="https://www.linkedin.com/in/ross-enger" class="linkedIn">
+            <img src="images/linkedin_logo_png.png" class="linkedInLogo">
+        </a>
+        <p class="email">rossenger@gmail.com</p>
+        <p class="minneapolis">Minneapolis, MN</p>
+        </div>
+        <p class="copyright">Copyright © 2023 - Ross Enger - All Rights Reserved</p>
+    </footer>
+   <script src="js/index2.js"></script>   
+</body>
+</html>

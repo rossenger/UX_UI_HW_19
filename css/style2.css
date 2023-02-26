@@ -12,6 +12,8 @@
     margin: 0;
 }
 
+
+
 body {
     margin: 0;
     padding: 0;
@@ -21,7 +23,9 @@ body {
     background-color: #414042;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 .loaderBackground {
     width: 100vw;
@@ -79,6 +83,15 @@ body {
 
 html.sr .load-hidden {
     visibility: hidden;
+}
+
+.fullHeight {
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    
 }
 
 .logoContainer {
@@ -761,6 +774,65 @@ html.sr .load-hidden {
     height: 178.75px;
 }
 
+.npoSection {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.jumbotron {
+    height: 219px;
+    background-image: url(../images/npo/hero.jpg);
+    background-size: cover;
+}
+
+.jumbotron .display-4 {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 82.99%;
+    color: #414042;
+    width: 629px;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-left: 123px;
+    padding-top: 46px;
+}
+
+.jumbotron .lead {
+    font-family: 'elza-narrow';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 93.49%;
+    color: #414042;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-left: 123px;
+    padding-top: 7px;
+}
+
+.npoCaseStudy {
+    background-color: white;
+    height: auto;
+}
+
+.previewImage {
+    padding-top: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.previewImage img {
+    width: 781px;
+    height: 369px;
+}
+
+
+.projectSummary p {
+    width: 608px;
+}
 
 footer {
     background-color: #414042;
@@ -1178,6 +1250,31 @@ footer {
         width: 100%;
     }
 
+    .jumbotron .display-4 {
+        font-family: 'elza-narrow';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 82.99%;
+        color: #414042;
+        width: 629px;
+        text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+        padding-left: 60px;
+        padding-top: 46px;
+    }
+    
+    .jumbotron .lead {
+        font-family: 'elza-narrow';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 93.49%;
+        color: #414042;
+        text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+        padding-left: 60px;
+        padding-top: 7px;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -1387,6 +1484,39 @@ padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
     padding: 50px 50px 100px 50px;
+}
+
+.jumbotron {
+    height: 219px;
+    background-image: url(../images/npo/hero.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+.jumbotron .display-4 {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 82.99%;
+    color: #414042;
+    width: 350px;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-left: 16px;
+    padding-top: 74px;
+}
+
+.jumbotron .lead {
+    font-family: 'elza-narrow';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 93.49%;
+    color: #414042;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-left: 16px;
+    padding-top: 4px;
 }
 
 

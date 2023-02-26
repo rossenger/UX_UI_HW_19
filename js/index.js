@@ -110,22 +110,22 @@ ScrollReveal().reveal('.trvlCard', {
 });
 
 ScrollReveal().reveal('.skillsHeader', {
-    delay: 1000,
+    delay: 250,
     distance: '50px'
 });
 
 ScrollReveal().reveal('.skillsCard', {
-    delay: 1000,
+    delay: 250,
     distance: '50px'
 });
 
 ScrollReveal().reveal('.toolsTitleContainer', {
-    delay: 1000,
+    delay: 250,
     distance: '50px'
 });
 
 ScrollReveal().reveal('.toolsCard', {
-    delay: 1000,
+    delay: 250,
     distance: '50px'
 });
 

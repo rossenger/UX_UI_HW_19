@@ -21,7 +21,9 @@ body {
     background-color: #414042;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 .loaderAnimationContainer {
     width: 100vw;
@@ -93,7 +95,7 @@ html.sr .load-hidden {
 }
 
 header {
-    width: 100vw;
+    width: 100%;
 }
 
 .logoContainer {
@@ -567,6 +569,7 @@ header {
 .aboutMeSection {
     background-color: #414042;
     width: 100%;
+    padding-top: 75px;
 }
 
 .aboutMeContainer {
@@ -1097,6 +1100,10 @@ footer {
         text-align: center;
         color: #FFFFFF;
     }
+
+    .aboutMeSection {
+        padding-top: 0px;
+    }
     
 
     .aboutMeContainer {
@@ -1106,6 +1113,7 @@ footer {
         margin-right: 30px;
         justify-content: space-evenly;
         align-items: center;
+        padding-top: 25px;
     }
 
     #aboutMePicture {
@@ -1152,6 +1160,10 @@ footer {
         padding-top: 81px;
         transform: translateY(5px);
     }
+
+    .skillsSection {
+        padding-top: 100px;
+    }
     
 
     
@@ -1176,9 +1188,10 @@ footer {
         flex-direction: column;
         align-items: center;
         padding-top: 100px;
+        padding-bottom: 200px;
     }
     
-    #toolssContainer p {
+    #toolsContainer p {
         word-wrap:break-word;
         max-width: 475px;
         text-align: center;
