@@ -188,6 +188,10 @@ header {
     -webkit-tap-highlight-color: transparent;
 }
 
+.menu-wrap li {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .menu-wrap .hamburger {
     position: absolute;
     top: 0;
@@ -334,7 +338,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    transform: translateY(120px);
+    transform: translateY(80px);
 }
 
 
@@ -411,6 +415,11 @@ header {
 .projectSection {
     background-color: white;
 }
+
+.projectGridContainer a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 
 
 .projectGridContainer {
